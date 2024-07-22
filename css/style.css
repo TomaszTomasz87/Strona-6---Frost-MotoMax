@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	color: rgb(35, 134, 221);
 }
 
 html {
@@ -21,27 +20,32 @@ body {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
-	color: rgb(164, 204, 240);
 	z-index: -1;
 }
 
-/* navigation */
+/* nawigacja */
+
 nav {
 	font-size: 2rem;
 	text-transform: uppercase;
 }
+
 .navbar-toggler {
 	font-size: 3rem;
 }
+
 .navbar-brand {
 	font-size: 2.4rem;
 	font-weight: bold;
 	text-transform: none;
 }
+
 /* header */
+
 header {
 	font-size: 2rem;
 }
+
 .carousel-item {
 	position: relative;
 	height: 400px;
@@ -49,51 +53,64 @@ header {
 	background-size: cover;
 	z-index: 0;
 }
+
 .carousel-img-one {
-	background-image: url(../img/main-carousel-1.jpg);
+	background-image: url('../img/main-carousel-1.jpg');
 }
 .carousel-img-two {
-	background-image: url(../img/main-carousel-2.jpg);
+	background-image: url('../img/main-carousel-2.jpg');
 }
 .carousel-img-three {
-	background-image: url(../img/main-carousel-3.jpg);
+	background-image: url('../img/main-carousel-3.jpg');
 }
 
 /* home */
 .home-boxes {
 	padding: 5em 0;
 }
+
 .home-box i {
 	font-size: 4rem;
 }
 .home-box h3 {
 	font-size: 2.6rem;
 }
-/* home -- passion */
+
+/* ----- */
+
 .home-passion {
 	position: relative;
-	height: 350px;
-	background-image: url(../img/car-1-small.jpg);
+	height: 550px;
+	background-image: url('../img/car-1-big.jpg');
 	background-position: center;
 	background-size: cover;
 	z-index: 0;
 }
 
+/* ----- */
+
+.home-brand h3 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+/* footer */
+footer {
+	font-size: 2.6rem;
+}
+
 @media (min-width: 1400px) {
 	.carousel-item {
-		position: relative;
 		height: 600px;
 	}
+
 	.carousel-img-one {
-		background-image: url(../img/main-carousel-1-hq.jpg);
+		background-image: url('../img/main-carousel-1-hq.jpg');
 	}
 	.carousel-img-two {
-		background-image: url(../img/main-carousel-2-hq.jpg);
+		background-image: url('../img/main-carousel-2-hq.jpg');
 	}
 	.carousel-img-three {
-		background-image: url(../img/main-carousel-3-hq.jpg);
+		background-image: url('../img/main-carousel-3-hq.jpg');
 	}
-}
-i {
-	color: black;
 }
