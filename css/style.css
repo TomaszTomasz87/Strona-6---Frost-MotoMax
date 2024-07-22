@@ -22,7 +22,20 @@ body {
 	background-color: rgba(0, 0, 0, 0.6);
 	z-index: -1;
 }
-
+.top-hero {
+	position: relative;
+	height: 200px;
+	background-size: cover;
+	z-index: 0;
+}
+.top-hero-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-size: 3.6rem;
+	text-transform: uppercase;
+}
 /* nawigacja */
 
 nav {
@@ -97,6 +110,11 @@ header {
 /* footer */
 footer {
 	font-size: 2.6rem;
+}
+/* about us */
+.aboutus-hero {
+	background-image: url(../img/aboutus/a2.jpg);
+	background-position: bottom;
 }
 
 @media (min-width: 1400px) {
