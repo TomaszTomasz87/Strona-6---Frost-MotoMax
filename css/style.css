@@ -2,16 +2,28 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	color: rgb(189, 197, 204);
 }
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.6rem;
 }
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+}
+
 /* navigation */
 nav {
 	font-size: 2rem;
@@ -24,4 +36,40 @@ nav {
 	font-size: 2.4rem;
 	font-weight: bold;
 	text-transform: none;
+}
+/* header */
+header {
+	font-size: 2rem;
+}
+.carousel-item {
+	position: relative;
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+.carousel-img-one {
+	background-image: url(../img/main-carousel-1.jpg);
+}
+.carousel-img-two {
+	background-image: url(../img/main-carousel-2.jpg);
+}
+.carousel-img-three {
+	background-image: url(../img/main-carousel-3.jpg);
+}
+
+@media (min-width: 1400px) {
+	.carousel-item {
+		position: relative;
+		height: 600px;
+	}
+	.carousel-img-one {
+		background-image: url(../img/main-carousel-1-hq.jpg);
+	}
+	.carousel-img-two {
+		background-image: url(../img/main-carousel-2-hq.jpg);
+	}
+	.carousel-img-three {
+		background-image: url(../img/main-carousel-3-hq.jpg);
+	}
 }
