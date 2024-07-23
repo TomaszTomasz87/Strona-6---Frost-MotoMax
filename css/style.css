@@ -92,8 +92,10 @@ header {
 /* ----- */
 
 .home-passion {
+
 	position: relative;
-	height: 550px;
+	height: 600px;
+	width: 50%;
 	background-image: url('../img/car-1-big.jpg');
 	background-position: center;
 	background-size: cover;
