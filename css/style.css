@@ -152,15 +152,102 @@ footer {
 	object-fit: cover;
 }
 
-/* --- */
+/* ----- */
 .aboutus-bottom i {
 	font-size: 3rem;
 }
+
 .aboutus-bottom h3 {
 	font-size: 2.2rem;
 	font-weight: bold;
 }
 
+/* usługi */
+
+.service-hero {
+	background-image: url('../img/service/service-hero.jpg');
+	background-position: 0 75%;
+}
+
+.service-hero-box {
+	position: relative;
+	height: 300px;
+	background-size: cover;
+	z-index: 0;
+}
+
+.service-hero-box p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.service-hero-box.box-one {
+	background-image: url('../img/service/engine.jpg');	
+}
+.service-hero-box.box-two {
+	background-image: url('../img/service/visual.jpg');	
+}
+.service-hero-box.box-three {
+	background-image: url('../img/service/car-audio.jpg');	
+}
+.service-hero-box.box-four {
+	background-image: url('../img/service/allinone.jpg');	
+}
+
+
+/* projekty */
+
+
+.projects-hero {
+    background-image: url('../img/projects/project-hero.jpg');
+    background-position: center;
+}
+
+.projects img {
+    height: 240px;
+    object-fit: cover;
+}
+
+.projects .btn {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+/* kontakt */
+
+.contact-hero {
+	background-image: url('../img/contact/contact-hero.jpg');
+	background-position: 0 40%;
+}
+
+.contact h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2.6rem;
+}
+
+.contact-logo {
+	font-size: 3rem;
+}
+
+.contact input, .contact select, .contact textarea {
+font-size: 1.6rem;
+}
+
+.contact .btn {
+	padding: 0.3em 0.8em;
+	font-size: 2rem;
+}
+
+.contact-map iframe {
+	width: 100%;
+	min-height: 400px;
+}
 
 @media (min-width: 992px) {
 	.aboutus-info .container {
